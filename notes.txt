@@ -1,0 +1,8 @@
+table format
+
+CREATE TABLE notes_data (
+  id INT NOT NULL AUTO_INCREMENT,
+  title VARCHAR(25) NOT NULL,
+  body TEXT,
+  PRIMARY KEY (id)
+);
